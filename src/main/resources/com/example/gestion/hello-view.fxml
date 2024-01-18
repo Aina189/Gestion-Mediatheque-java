@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane cacheShape="false" centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="monAnchorPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestion.MainController">
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label layoutX="6.0" layoutY="3.0" prefHeight="23.0" prefWidth="153.0" text="Mediathèque  AK" textFill="WHITE">
+                    <font>
+                        <Font name="Calibri Bold" size="20.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutY="32.0" prefHeight="79.0" prefWidth="800.0">
+               <children>
+                  <Label layoutX="7.0" layoutY="6.0" text="Admin " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font></Label>
+               </children></AnchorPane>
+                <Button layoutX="730.0" layoutY="-4.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="70.0" styleClass="exitButton" stylesheets="@style.css">
+                    <font>
+                        <Font size="11.0" />
+                    </font>
+                </Button>
+                <Label layoutX="674.0" layoutY="474.0" prefHeight="17.0" prefWidth="115.0" text="Serveur connecté" textFill="WHITE">
+                    <font>
+                        <Font name="Consolas Bold" size="12.0" />
+                    </font>
+                </Label>
+                <Circle fill="#47ff5f" layoutX="663.0" layoutY="483.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+            <Button fx:id="btnMembre" layoutX="74.0" layoutY="134.0" mnemonicParsing="false" onAction="#switchPage" prefHeight="165.0" prefWidth="275.0" style="-fx-background-radius: 30;" styleClass="cadreColor" stylesheets="@style.css" />
+            <Label focusTraversable="false" layoutX="107.0" layoutY="154.0" mouseTransparent="true" prefHeight="17.0" prefWidth="136.0" text="Membres" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAjout" layoutX="372.0" layoutY="229.0" mnemonicParsing="false" onAction="#switchPageAjout" prefHeight="203.0" prefWidth="339.0" style="-fx-background-radius: 30;" styleClass="cadreColor" stylesheets="@style.css" />
+            <Label fx:id="totalMembre" alignment="BOTTOM_RIGHT" focusTraversable="false" layoutX="252.0" layoutY="229.0" mouseTransparent="true" prefHeight="70.0" prefWidth="78.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="107.0" layoutY="189.0" mouseTransparent="true" text="Voir tous les membres inscrits" textFill="#ffffffb1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label focusTraversable="false" layoutX="107.0" layoutY="208.0" mouseTransparent="true" text="pour contrôler et gérer" textFill="#ffffffc3">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="abonnement" layoutX="78.0" layoutY="321.0" mnemonicParsing="false" onAction="#switchPageAbonnement" prefHeight="111.0" prefWidth="268.0" style="-fx-background-radius: 30;" styleClass="cadreColor" stylesheets="@style.css" />
+            <Button fx:id="btnMembre111" layoutX="373.0" layoutY="138.0" mnemonicParsing="false" onAction="#switchPage" prefHeight="79.0" prefWidth="339.0" style="-fx-background-radius: 30;" styleClass="cadreColor" stylesheets="@style.css" />
+            <Label focusTraversable="false" layoutX="400.0" layoutY="247.0" mouseTransparent="true" text="Ajouter" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+            <Label layoutX="400.0" layoutY="282.0" mouseTransparent="true" text="un nouveau membre " textFill="#ffffffde">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="331.0" mouseTransparent="true" text="Renouveler abonnement" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="107.0" layoutY="351.0" mouseTransparent="true" text="Mettre à jour les abonnements " textFill="#ffffffba">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <FontIcon focusTraversable="true" iconColor="WHITE" iconLiteral="eli-torso" iconSize="50" layoutX="602.0" layoutY="294.0" mouseTransparent="true" />
+            <FontIcon iconColor="WHITE" iconLiteral="eli-group" iconSize="30" layoutX="107.0" layoutY="277.0" mouseTransparent="true" />
+            <FontIcon iconColor="#ffffffb7" iconLiteral="eli-remove-circle" iconSize="20" layoutX="755.0" layoutY="22.0" mouseTransparent="true" />
+            <Label layoutX="400.0" layoutY="146.0" text="Membres sanctionnés" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="668.0" layoutY="138.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="51.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

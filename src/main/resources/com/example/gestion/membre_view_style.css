@@ -1,0 +1,7 @@
+.menuLeft{
+    -fx-background-color:linear-gradient(to bottom right,#000045,#c6d1e7);
+}
+
+.dataView{
+    -fx-background-color:#C9C9C9;
+}

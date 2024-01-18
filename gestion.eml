@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_20" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-api:5.10.0" scope="TEST"/>
+	<lib name="Maven: org.opentest4j:opentest4j:1.3.0" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-commons:1.10.0" scope="TEST"/>
+	<lib name="Maven: org.apiguardian:apiguardian-api:1.1.2" scope="TEST"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-engine:5.10.0" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-engine:1.10.0" scope="TEST"/>
+	<levels>
+		<level name="Maven: org.openjfx:javafx-controls:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-controls:win:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-graphics:win:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-base:win:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:20.0.1" value="project"/>
+		<level name="Maven: org.openjfx:javafx-fxml:win:20.0.1" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-api:5.10.0" value="project"/>
+		<level name="Maven: org.opentest4j:opentest4j:1.3.0" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-commons:1.10.0" value="project"/>
+		<level name="Maven: org.apiguardian:apiguardian-api:1.1.2" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-engine:5.10.0" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-engine:1.10.0" value="project"/>
+		<level name="Maven: com.mysql:mysql-connector-j:8.0.33" value="project"/>
+		<level name="Maven: com.google.protobuf:protobuf-java:3.21.9" value="project"/>
+		<level name="Maven: org.jsoup:jsoup:1.15.3" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-javafx:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-core:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-antdesignicons-pack:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-elusive-pack:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-bootstrapicons-pack:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-boxicons-pack:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-captainicon-pack:12.3.1" value="project"/>
+		<level name="Maven: org.kordamp.ikonli:ikonli-devicons-pack:12.3.1" value="project"/>
+		<level name="Maven: org.apache.maven.plugins:maven-deploy-plugin:maven-plugin:2.7" value="project"/>
+		<level name="Maven: org.apache.maven:maven-plugin-api:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-project:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-settings:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-profile:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-artifact-manager:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-repository-metadata:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" value="project"/>
+		<level name="Maven: org.apache.maven:maven-plugin-registry:2.0.6" value="project"/>
+		<level name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" value="project"/>
+		<level name="Maven: junit:junit:3.8.1" value="project"/>
+		<level name="Maven: classworlds:classworlds:1.1-alpha-2" value="project"/>
+		<level name="Maven: org.apache.maven:maven-model:2.0.6" value="project"/>
+		<level name="Maven: org.apache.maven:maven-artifact:2.0.6" value="project"/>
+		<level name="Maven: org.codehaus.plexus:plexus-utils:1.5.6" value="project"/>
+	</levels>
+</component>

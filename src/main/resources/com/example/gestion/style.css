@@ -1,0 +1,53 @@
+.bodybg{
+-fx-background-color:linear-gradient(to bottom right,#141E30,#243B55);
+-fx-background-repeat: no-repeat;
+
+
+}
+
+.cadreColor{
+    -fx-background-color:linear-gradient(to bottom right,#8db0f1,#372c68);
+}
+
+.cadreColor:hover {
+    -fx-background-color:linear-gradient(to bottom right,#c6d1e7,#674dda);
+}
+
+.cadreColor:pressed {
+    -fx-background-color:linear-gradient(to bottom right,#576c97,#6452b4);
+}
+
+.exitButton{
+    -fx-background-color:linear-gradient(to bottom right,#576c9798,#baafee);
+    -fx-background-radius: 0 0 0 10;
+}
+
+.exitButton:hover{
+    -fx-background-color:linear-gradient(to bottom right,rgb(255, 0, 21),rgb(233, 103, 103));
+    -fx-background-radius: 0 0 0 10;
+}
+
+.monAnchorPane {
+    -fx-background-color: transparent;
+}
+
+/* style.css */
+.loading-slider {
+    -fx-background-color: #b4b4b4; /* Couleur du fond */
+    -fx-background-insets: 0; /* Supprimer les bordures du fond */
+    -fx-background-radius: 0; /* Bords droits (pas d'arrondi) */
+    -fx-padding: 0; /* Aucun espace interne */
+}
+
+.loading-slider .track {
+    -fx-background-color: #b4b4b4; /* Couleur de la piste */
+}
+
+.loading-slider .thumb {
+    -fx-background-color: #3498db; /* Couleur du curseur (thumb) */
+    -fx-background-insets: 0; /* Supprimer les bordures du curseur */
+    -fx-shape: "M 0 0 L 10 5 L 0 10 L 0 0 Z"; /* Personnaliser la forme du curseur (en triangle ici) */
+}
+
+
+
